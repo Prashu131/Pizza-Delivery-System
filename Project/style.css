@@ -1,0 +1,88 @@
+body {
+    background-image:    url(images/bg.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;              /* optional, center the image */
+}
+
+
+
+
+
+        #header_pizza {
+                width: 797px;
+                height: 317px;
+                background:url(images/long.jpg) no-repeat;
+
+                #content {
+                    width: 797px;
+                    height: 312px;
+                    background: #ffffff;
+                }
+
+/* LEFT CONTENT */
+#content_left {
+	width: 350px;
+	float:left;
+	margin-left: 45px;
+
+}
+
+* html #content_left {
+	margin-left: 22px;
+	width: 300px;
+
+}
+
+#content_left .text {
+	margin: 5px 0px 5px 10px;
+	color:#000000;
+	font-weight:bold;
+
+}
+
+#content_left .text a{
+	color:#000000;
+	text-decoration:none;
+	font-weight:bold;
+
+}
+
+#content_left .text a:hover{
+	color:#000000;
+	text-decoration:none;
+	font-weight:bold;
+
+}
+.w3-red,.w3-hover-red:hover{color:#fff!important;background-color:#f44336!important}
+.w3-button{width:100%;text-align:left;padding:10px 16px}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+  
